@@ -1,14 +1,18 @@
-function Movie({movie}){
-  return <div>
-  <img src={movie.medium_cover_image} alt={movie.title}/>
-  <h2>{movie.title}</h2>
-  <div>{movie.summary}</div>
-  <ul>
-    {movie.genres
-      ? movie.genres.map((g) => <li key={g}>{g}</li>)
-      : null}
-  </ul>
-</div>
+import { PropTypes } from 'prop-types';
+
+function Movie({ coverImg, title, summary, genres }) {
+  return (
+    <div>
+      <img src={coverImg} alt={title} />
+      <h2>{title}</h2>
+      <div>{summary}</div>
+      <ul>{genres ? genres.map((g) => <li key={g}>{g}</li>) : null}</ul>
+    </div>
+  );
 }
+
+Movie.propTypes = {
+  // coverImg: PropTypes.string,
+};
 
 export default Movie;
