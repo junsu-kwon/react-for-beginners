@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.js": "/junsu-kwon/react-for-beginners/static/js/main.bead6497.js",
+    "main.js": "/junsu-kwon/react-for-beginners/static/js/main.f9cf008f.js",
     "index.html": "/junsu-kwon/react-for-beginners/index.html",
-    "main.bead6497.js.map": "/junsu-kwon/react-for-beginners/static/js/main.bead6497.js.map"
+    "main.f9cf008f.js.map": "/junsu-kwon/react-for-beginners/static/js/main.f9cf008f.js.map"
   },
   "entrypoints": [
-    "static/js/main.bead6497.js"
+    "static/js/main.f9cf008f.js"
   ]
 }
