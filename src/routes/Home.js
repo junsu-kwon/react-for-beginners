@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 import Movie from '../components/Movie';
-import TopMenu from '../components/TopMenu';
 
 function Home() {
   const [loading, setLoading] = useState(true);
@@ -25,7 +24,6 @@ function Home() {
 
   return (
     <div>
-      <TopMenu />
       {loading ? (
         <h1>Loading</h1>
       ) : (
